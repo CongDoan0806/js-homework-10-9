@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/Study in class/Sell product2/product.css">
+</head>
+<body>
+    <form action="">
+        <div class="pname">
+            <label for="">Product Name: </label>
+            <input type="text" id="pname" placeholder="Enter name Product">
+        </div>
+        <div class="pqty">
+            <label for="">Product Quantity: </label>
+            <input type="text" id="pqty" placeholder="Enter Quantity">
+        </div>
+        <div class="pprice">
+            <label for="">Product Price: </label>
+            <input type="text" id="pprice" placeholder="Enter Price" >
+        </div>
+        <button id="button" onclick="sellFunction()">Add</button>
+        
+            <table id="my_table">
+                <tr>
+                    <th>No</th>
+                    <th>Name</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                    <th>Sub-total</th>
+                </tr>
+                
+            </table>
+            <table >
+                <tr></tr>
+                    <td class="ngan" colspan="4">Total</td>
+                    <td  id="total"></td>
+                </tr>
+            </table>
+        
+            
+    </form>
+    <script src="/Study in class/Sell product2/product.js"></script>
+</body>
+</html>
