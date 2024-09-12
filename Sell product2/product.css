@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 350px;
+    height: 100%;
+    background-color: bisque;
+}
+form div{
+    margin: 10px;
+}
+.pname input{
+    margin-left: 18px;
+}
+.pprice input{
+    margin-left: 23px;
+}
+button{
+    margin: 10px;
+}
+table th{
+    padding-right: 20px;
+}
+.ngan{
+    padding-right: 213px;
+}
